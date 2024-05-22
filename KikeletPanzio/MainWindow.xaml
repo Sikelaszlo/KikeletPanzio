@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Menu VerticalAlignment="Center" Height="35" Padding="5">
+            <MenuItem Header="Szobák"/>
+            <MenuItem Header="Ügyfelek"/>
+            <MenuItem Header="Foglalás"/>
+        </Menu>
     </Grid>
 </Window>
